@@ -1,0 +1,28 @@
+{
+  "name": "vinella-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-cli serve --mode=development --hot --client-log-level silent"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "4.42.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "3.11.0", 
+    "@svgr/webpack": "4.3.3"
+
+  },
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "dependencies": {}
+}
